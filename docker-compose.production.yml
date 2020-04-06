@@ -5,16 +5,15 @@ services:
     image: vergissberlin/boxshot-service
     #container_name: andrelademannde-boxshot-service
     labels:
-    - traefik.enable=true
-    - traefik.docker.network=${NETWORK}
-    - traefik.http.routers.andrelademannde-iot.rule=Host(`boxshot-service.andrelademann.de`)
-    - traefik.http.routers.andrelademannde-iot.entrypoints=https
-    - traefik.http.routers.andrelademannde-iot.tls=true
-    - traefik.http.routers.andrelademannde-iot.tls.certresolver=letsencrypt
-    - traefik.http.services.andrelademannde-iot.loadbalancer.server.port=${PORT}
+      - traefik.enable=true
+      - traefik.docker.network=www
+      - traefik.http.routers.andrelademannde-iot.rule=Host(`boxshot-service.andrelademann.de`)
+      - traefik.http.routers.andrelademannde-iot.entrypoints=https
+      - traefik.http.routers.andrelademannde-iot.tls=true
+      - traefik.http.routers.andrelademannde-iot.tls.certresolver=letsencrypt
     restart: unless-stopped
 
 networks:
   default:
     external:
-      name: ${NETWORK}
+      name: www

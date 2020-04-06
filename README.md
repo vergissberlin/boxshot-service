@@ -7,7 +7,7 @@ Service to make screenshots of boxes
 ```bash
 docker-compose up -d
 # OR on production
-docker-compose -f docker-compose.yml -f docker-compose.production.yml up -d
+docker-compose -f docker-compose.production.yml up -d
 ```
 
 ## Development
