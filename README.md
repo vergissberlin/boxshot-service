@@ -6,6 +6,8 @@ Service to make screenshots of boxes
 
 ```bash
 docker-compose up -d
+# OR on production
+docker-compose -f docker-compose.yml -f docker-compose.production.yml up -d
 ```
 
 ## Development
@@ -21,4 +23,3 @@ docker-compose build boxshot-service
 ```bash
 docker-compose push boxshot-service
 ```
-
