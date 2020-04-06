@@ -2,6 +2,7 @@
 
 !/.dockerignore
 !/.gitignore
+!/app
 !/docker-compose.yml
 !/docker-compose.production.yml
 !/Dockerfile
