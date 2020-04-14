@@ -8,4 +8,4 @@ deploy:
   app: boxshot-service
   on: master
   api_key:
-    secure: 
+    secure: $HEROKU_TOKEN

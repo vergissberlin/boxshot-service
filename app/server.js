@@ -18,7 +18,7 @@ app.use(cors())
 app.use(ExpressAPILogMiddleware(logger, { request: true }))
 
 app.get('/', (req, res) => {
-  res.json(req)
+  res.json({ hello: 'world' })
 })
 
 app.listen(config.port, config.host, (e) => {

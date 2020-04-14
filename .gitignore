@@ -3,6 +3,7 @@
 !/.dockerignore
 !/.gitignore
 !/.eslintrc.json
+!/.travis.yml
 !/app
 !/bin
 !/docker-compose.yml
@@ -10,7 +11,6 @@
 !/Dockerfile
 !/package-lock.json
 !/package.json
-!/travis.yml
 
 !/README.md
 !/server.js
