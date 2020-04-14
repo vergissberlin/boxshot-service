@@ -2,7 +2,7 @@ language: node_js
 node_js:
 - '13'
 script:
-- npm test
+- cd app && npm install && npm test
 deploy:
   provider: heroku
   app: boxshot-service
