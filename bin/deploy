@@ -1,0 +1,10 @@
+#!/bin/bash
+set -ex
+
+heroku container:push web -a boxshot-service
+heroku container:release web -a boxshot-service
+
+#echo "$HEROKU_TOKEN" | docker login -u _ --password-stdin registry.heroku.com
+#docker build -t registry.heroku.com/boxshot/web .
+#docker push registry.heroku.com/boxshot/web
+#heroku container:release web --app boxshot

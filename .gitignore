@@ -2,12 +2,15 @@
 
 !/.dockerignore
 !/.gitignore
+!/.eslintrc.json
 !/app
+!/bin
 !/docker-compose.yml
 !/docker-compose.production.yml
 !/Dockerfile
 !/package-lock.json
 !/package.json
+!/travis.yml
 
 !/README.md
 !/server.js

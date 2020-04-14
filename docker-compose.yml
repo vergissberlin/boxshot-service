@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   boxshot-service:
-    image: vergissberlin/boxshot-service
+    image: registry.heroku.com/boxshot/web
     build: .
     ports:
       - '4000:80'
