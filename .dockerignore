@@ -1,4 +1,11 @@
-/node_modules
-/shots
-/log
 *.log
+
+/bin
+/log
+/.travis.yml
+/.editorconfig
+/.gitignore
+/docker-compose.yml
+/docker-compose.production.yml
+/node_modules
+/screenshots

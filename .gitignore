@@ -2,6 +2,7 @@
 
 !/.dockerignore
 !/.gitignore
+!/.editorconfig
 !/.eslintrc.json
 !/.travis.yml
 !/app

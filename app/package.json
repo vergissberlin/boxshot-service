@@ -11,6 +11,9 @@
   "keywords": [],
   "author": "André Lademann <vergissberlin@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "13.x"
+  },
   "dependencies": {
     "@rama41222/node-logger": "^1.0.1",
     "body-parser": "^1.19.0",
