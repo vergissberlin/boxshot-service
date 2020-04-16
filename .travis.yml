@@ -4,10 +4,11 @@ node_js:
 script:
   - cd app && npm install && npm test
 
-deploy:
-  provider: heroku
-  api_key:
-    secure: 'qjLB7Q0TroGjqE3Y09FUgcBGTdPcpi/zPT5AqfoXqd3IybYLvbv7RyoZpkP9sPOODBIJ1j30UdfSkexCRdj2MQPyC+LaCCtgAZAgxmxhFcXJDyN9E4vNf06c0nf9u9PN0SRB1o0KiuLNBYDBEe9/Iy7p2++LicMq6l5Lm2SxB/+yy/hqk+xOegVDqWtuLUy1IHP9ePcGhZ+DOItsEo6qbVPijr2OiJYabbWmVmTmySuSW6sxf6CUSsaduoERMAiA4F5dvrPtiS3JXZz1wRpw8jNriZD6Q1p10HgrxheIarpxjPWSxr+n1qQYKx1MCznx5usRjJahIHx0aQ3hG7UuyU6UOViMC/W6Gbecpgkp0AzOyW0RN2oRhgru0bXWNI25wk6y5YG+KYLQR5AGcpSt8DRvgAlZltksk7+bd1uNUXcFG0aLdrFNpNhvHEGilg4Bu0UgVD7rx0MzVPJ0QsOG8xJVm+76MdZ3qMMZiww+pOG4VxspXKIzLkUwAGcWFe0UytM02YyllkNtQb3cuNoRTAE8BIBv8+Jn8apLuejBWgI2+dxfwGWkj6DKwBEXskH6DARWUtX7bmPz1umDU4v1CBcpH2fWGE+Yv+l3A3QF9Qfagp/NCFnFZ9KpYAP8l0teCi6RP+63245KpuEjRb9RziEJ2xgU4EW4NKM5XuJHRpI='
-  app: boxshot-service
-  on:
-    repo: vergissberlin/boxshot-service
+# https://medium.com/@felipeluizsoares/automatically-deploy-with-travis-ci-and-heroku-ddba1361647f
+# deploy:
+#   provider: heroku
+#   api_key:
+#     secure: 'qjLB7Q0TroGjqE3Y09FUgcBGTdPcpi/zPT5AqfoXqd3IybYLvbv7RyoZpkP9sPOODBIJ1j30UdfSkexCRdj2MQPyC+LaCCtgAZAgxmxhFcXJDyN9E4vNf06c0nf9u9PN0SRB1o0KiuLNBYDBEe9/Iy7p2++LicMq6l5Lm2SxB/+yy/hqk+xOegVDqWtuLUy1IHP9ePcGhZ+DOItsEo6qbVPijr2OiJYabbWmVmTmySuSW6sxf6CUSsaduoERMAiA4F5dvrPtiS3JXZz1wRpw8jNriZD6Q1p10HgrxheIarpxjPWSxr+n1qQYKx1MCznx5usRjJahIHx0aQ3hG7UuyU6UOViMC/W6Gbecpgkp0AzOyW0RN2oRhgru0bXWNI25wk6y5YG+KYLQR5AGcpSt8DRvgAlZltksk7+bd1uNUXcFG0aLdrFNpNhvHEGilg4Bu0UgVD7rx0MzVPJ0QsOG8xJVm+76MdZ3qMMZiww+pOG4VxspXKIzLkUwAGcWFe0UytM02YyllkNtQb3cuNoRTAE8BIBv8+Jn8apLuejBWgI2+dxfwGWkj6DKwBEXskH6DARWUtX7bmPz1umDU4v1CBcpH2fWGE+Yv+l3A3QF9Qfagp/NCFnFZ9KpYAP8l0teCi6RP+63245KpuEjRb9RziEJ2xgU4EW4NKM5XuJHRpI='
+#   app: boxshot-service
+#   on:
+#     repo: vergissberlin/boxshot-service
