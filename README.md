@@ -1,7 +1,6 @@
-# boxshot service
+# boxshot service [![Build Status](https://travis-ci.com/vergissberlin/boxshot-service.svg?branch=master)](https://travis-ci.com/vergissberlin/boxshot-service)
 
-[![Build Status](https://travis-ci.com/vergissberlin/boxshot-service.svg?branch=master)](https://travis-ci.com/vergissberlin/boxshot-service)
-Service to make screenshots of boxes
+> Service to make screenshots of boxes
 
 ## Run
 
