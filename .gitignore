@@ -4,6 +4,7 @@
 !/.gitignore
 !/.editorconfig
 !/.eslintrc.json
+!/.prettierrc.json
 !/.travis.yml
 !/app
 !/bin

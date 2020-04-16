@@ -6,7 +6,7 @@ const { log, ExpressAPILogMiddleware } = require('@rama41222/node-logger')
 const config = {
 	name: 'boxshot-service',
 	port: process.env.PORT || 80,
-	host: '0.0.0.0',
+	host: '0.0.0.0'
 }
 
 const app = express()
