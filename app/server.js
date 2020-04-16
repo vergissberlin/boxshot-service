@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 		'Cache-Control',
 		'max-age=600, s-max-age=600, public, must-revalidate'
 	)
-	res.json({ hello: 'world' })
+	res.json({ hello: 'world', test: 'Test deployment pipeline' })
 })
 
 app.listen(config.port, config.host, (e) => {
