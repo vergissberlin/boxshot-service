@@ -10,6 +10,7 @@
 !/docker-compose.yml
 !/docker-compose.production.yml
 !/Dockerfile
+!/heroku.yml
 !/package-lock.json
 !/package.json
 

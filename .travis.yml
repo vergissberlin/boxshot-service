@@ -3,9 +3,3 @@ node_js:
 - '13'
 script:
 - cd app && npm install && npm test
-deploy:
-  provider: heroku
-  app: boxshot-service
-  on: master
-  api_key:
-    secure: gXB11oSnKHnG2gZul3u8/+inUShhUl41e3A6xA98rVWHSi/dQoARdg9lVyw4OGQwWxNtO2dhyY5Vd5RbDHRUxLFgdiXrUvj2dxzg1H535TAPdvQ6IOaYltQAOZY4pJcdHGkpFzVAoWbXInPvWgGt2pYW3wEDXnUJwKDz8QvWVnB/TlY7M5UgFhx77sGmli52c/lbvNNOnX4V0HDy3vGjvhKqBLgPMuFoB+qs+ymVWWL4OsoITtBh1gH7EYoy9blBGbHNIkwgFpAB5wD/dv2rIdOc+5US5j7HfOoFJr0qw7ki0Jg2JnBxQQbNQ+Ars9E3wN3Gtz6zuAjPTrCbfvLktX/RI8cHn6bJ+OENnHBhjfIT7UoWwrU/yGicqlQ+nuDVKVAuWLOV4CN7vP4UJV21zAULRuR80K7NApdB0bax+S3lwob0ZVv9QcFJOsXKmGBhAtbvxuYez2JgjlUT/Nw5xZbT4FVs7Zu93w7Xd2K1yEBcT2UxqboszI8rg0cs0oFrQypoPnT3JoYDl0Z6PBKlAURr95qogMxo5Bh+oJ7YubTA3hcaYAwz4tCaqWWfuVNlCfLmjXPSyKR+a4Wp1/naEpp0Sp7pJ1nN3I8hd42oblvWhZoSh/rAn2Drc7uS+Ms2x+hffUKpLprLO2J6rnWE4wpTQ/SyUQUKzRE71eJpUxk=
