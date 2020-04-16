@@ -6,7 +6,11 @@
 
 ```bash
 docker-compose up -d
-# OR on production
+```
+
+### OR on production
+
+```bash
 docker-compose -f docker-compose.production.yml up -d
 ```
 
