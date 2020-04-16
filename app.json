@@ -1,0 +1,8 @@
+{
+	"name": "boxshot-service - The screenshot tool for boxes",
+	"website": "https://boxshot.andrelademann.de/",
+	"repository": "https://github.com/vergissberlin/boxshot-service",
+	"app": { "region": "europe" },
+	"image": "vergissberlin/boxshot-service",
+	"stack": "heroku-18"
+}
