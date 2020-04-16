@@ -12,14 +12,20 @@ docker-compose -f docker-compose.production.yml up -d
 
 ## Development
 
-### Build
+### Fix
 
 ```bash
-docker-compose build boxshot-service
+bin/fix
 ```
 
-### Releae
+### Logging
 
 ```bash
-docker-compose push boxshot-service
+bin/log
+```
+
+### Release
+
+```bash
+bin/deploy
 ```
