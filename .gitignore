@@ -7,6 +7,7 @@
 !/.prettierrc.json
 !/.travis.yml
 !/app
+!/app.json
 !/bin
 !/docker-compose.yml
 !/docker-compose.production.yml
